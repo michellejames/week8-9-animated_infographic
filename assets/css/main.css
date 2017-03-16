@@ -24,59 +24,6 @@ html, body {
   font-family: 'Antic Slab', serif;
 }
 
-@media screen and (min-width: 360px) {
-
-  .hero h1 {
-    font-size: 1em;
-  }
-
-  .bed {
-    position: absolute;
-    background-image: url(../img/bed.png);
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    background-position: 0 100%;
-    width: 23.324895%;
-    height: 24.582524%;
-    top: 34.927184%;
-    left: 47.915612%;
-  }
-}
-
-@media screen and (min-width: 400px) {
-
-  .hero h1 {
-    font-size: 1em;
-  }
-
-  .bed {
-    position: absolute;
-    background-image: url(../img/bed.png);
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    background-position: 0 100%;
-    width: 25.324895%;
-    height: 24.582524%;
-    top: 34.927184%;
-    left: 51.915612%;
-}
-
-
-@media screen and (min-width: 460px) {
-
-  .bed {
-    position: absolute;
-    background-image: url(../img/bed.png);
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    background-position: 0 100%;
-    width: 29.32489451%;
-      height: 24.582524%;
-      top: 34.927184%;
-    left: 59.91561181%;
-  }
-}
-
 .page-wrap {
   margin: 0 auto;
   border: 2px solid white;
@@ -1626,17 +1573,17 @@ html, body {
   line-height: 10px;
 }
 
-/*.bed {
+.bed {
   position: absolute;
   background-image: url(../img/bed.png);
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: 0 100%;
   width: 29.32489451%;
-    height: 24.582524%;
-    top: 34.927184%;
+  height: 24.582524%;
+  top: 34.927184%;
   left: 59.91561181%;
-}*/
+}
 
 .thin-red-line2 {
   position: absolute;
