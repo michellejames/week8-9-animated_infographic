@@ -1,0 +1,2733 @@
+/* 
+==============================================
+CONTENT:	Project Name Here
+AUTHOR:		Your Name Here
+==============================================
+
+TABLE OF CONTENTS:
+
+1. Main Layout
+2. Content
+
+==============================================
+*/
+/* 1. Main Layout ================================= */
+* {
+  box-sizing: border-box;
+
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: #45bed9;
+  font-family: 'Antic Slab', serif;
+}
+
+@media screen and (min-width: 360px) {
+
+  .hero h1 {
+    font-size: 1em;
+  }
+
+  .bed {
+    position: absolute;
+    background-image: url(../img/bed.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: 0 100%;
+    width: 23.324895%;
+    height: 24.582524%;
+    top: 34.927184%;
+    left: 47.915612%;
+  }
+}
+
+@media screen and (min-width: 400px) {
+
+  .hero h1 {
+    font-size: 1em;
+  }
+
+  .bed {
+    position: absolute;
+    background-image: url(../img/bed.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: 0 100%;
+    width: 25.324895%;
+    height: 24.582524%;
+    top: 34.927184%;
+    left: 51.915612%;
+}
+
+
+@media screen and (min-width: 460px) {
+
+  .bed {
+    position: absolute;
+    background-image: url(../img/bed.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: 0 100%;
+    width: 29.32489451%;
+      height: 24.582524%;
+      top: 34.927184%;
+    left: 59.91561181%;
+  }
+}
+
+.page-wrap {
+  margin: 0 auto;
+  border: 2px solid white;
+  width: 100%;
+  max-width: 474px;
+}
+
+.hero {
+  position: relative;
+  height: 0;
+  padding-bottom: 78.48101266%; /* 372/474 */
+}
+
+.hero h1 {
+  font-size: 2.1em;
+  line-height: 136%;
+  font-family: 'Alfa Slab One', cursive;
+  color: #FFFFFF;
+  position: absolute;
+  top: 12.57309942%;
+  text-align: center;
+  z-index: 4;
+}
+
+.yellow-line {
+  position: absolute;
+  top: 23.51462%;
+  left: 22.15189873%;
+  width: 55.907173%;
+  height: 0.839181%;
+  border-radius: 5px;
+  background-color: #F8AF1B;
+}
+
+.city {
+  position: absolute;
+  background-image: url(../img/city.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 100%;
+  height: 27.77777778%; /*95/342*/
+  bottom: 0;
+}
+
+/*/////////////// Sun & Sunrays ///////////////*/
+
+
+.sun1 {
+  position: absolute;
+  top: 43.85964912%;
+  left: 19.83122363%;
+  width: 20.98734177%;
+  height: 26.31578947%;
+  border-radius: 100px;
+  background-color: #F8AF1B;
+  z-index: 1;
+}
+
+.sun-part-one {
+  position: absolute;
+  top: -50.74269%;
+  left: 47.691983%;
+  width: 3.333333333%;
+  height: 23.33333333%;
+}
+
+.sun-part-two {
+  position: absolute;
+  top: -43.74269%;
+  left: 86.691983%;
+  width: 3.333333333%;
+  height: 23.33333333%;
+  transform: rotate(25.714285714285714deg);
+}
+
+.sun-part-three {
+  position: absolute;
+  top: -21.74269%;
+  left: 120.691983%;
+  width: 3.333333333%;
+  height: 23.33333333%;
+  transform: rotate(51.428571428571428deg);
+}
+
+.sun-part-four {
+  position: absolute;
+  top: 19.25731%;
+  left: 134.691983%;
+  width: 3.333333333%;
+  height: 23.33333333%;
+  transform: rotate(77.142857142857142deg);
+}
+
+.sun-part-five {
+  position: absolute;
+  top: 64.25731%;
+  left: 134.691983%;
+  width: 3.333333333%;
+  height: 23.33333333%;
+  transform: rotate(102.857142857142856deg);
+}
+
+.sun-part-six {
+  position: absolute;
+  top: 97.74269%;
+  left: 117.691983%;
+  width: 3.333333333%;
+  height: 23.33333333%;
+  transform: rotate(128.57142857142857deg);
+}
+
+.sun-part-seven {
+  position: absolute;
+  top: 116.74269%;
+  left: 86.691983%;
+  width: 3.333333333%;
+  height: 23.33333333%;
+  transform: rotate(154.285714285714284deg);
+}
+
+.sun-part-eight {
+  position: absolute;
+  top: 124.25731%;
+  left: 47.691983%;
+  width: 3.333333333%;
+  height: 23.33333333%;
+  transform: rotate(180deg);
+}
+
+.sun-part-nine {
+  position: absolute;
+  top: 116.74269%;
+  left: 6.691983%;
+  width: 3.333333333%;
+  height: 23.33333333%;
+  transform: rotate(205.714285714285712deg);
+}
+
+.sun-part-ten {
+  position: absolute;
+  top: 97.74269%;
+  left: -22.691983%;
+  width: 3.333333333%;
+  height: 23.33333333%;
+  transform: rotate(231.428571428571426deg);
+}
+
+.sun-part-eleven {
+  position: absolute;
+  top: 64.25731%;
+  left: -37.691983%;
+  width: 3.333333333%;
+  height: 23.33333333%;
+  transform: rotate(257.14285714285714deg);
+}
+
+.sun-part-tweleve {
+  position: absolute;
+  top: 19.25731%;
+  left: -38.691983%;
+  width: 3.333333333%;
+  height: 23.33333333%;
+  transform: rotate(282.857142857142854deg);
+}
+
+.sun-part-thirteen {
+  position: absolute;
+  top: -21.74269%;
+  left: -21.691983%;
+  width: 3.333333333%;
+  height: 23.33333333%;
+  transform: rotate(308.571428571428568deg);
+}
+
+.sun-part-fourteen {
+  position: absolute;
+  top: -43.74269%;
+  left: 8.308017%;
+  width: 3.333333333%;
+  height: 23.33333333%;
+  transform: rotate(334.285714285714282deg);
+}
+
+.sun-ray {
+  position: relative;
+  width: 100%;
+  height: 20%;
+  border-radius: 10px;
+  background-color: #F8AF1B;
+  margin-top: 2px;
+  transform: translate(20%);
+}
+
+/*/////////////// Clouds ///////////////*/
+
+
+.clouds-dark {
+  position: relative;
+  height: 0;
+  padding-bottom: 78.48101266%; /* 372/474 */
+  z-index: 3;
+}
+
+.cloud1 {
+  position: absolute;
+  top: 5.8479532163743%;
+  left: 63.08016878%;
+  width: 8.438818565%;
+  height: 2.339181287%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud2 {
+  position: absolute;
+  top: 7.30994152%;
+  left: 84.81012658%;
+  width: 8.438818565%;
+  height: 2.339181287%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud3 {
+  position: absolute;
+  top: 20.1754386%;
+  left: 81.64556962%;
+  width: 12.438819%;
+  height: 1.339181%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud4 {
+  position: absolute;
+  top: 35.3801169590643%;
+  left: 86.4978903%;
+  width: 12.438819%;
+  height: 1.339181%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud5 {
+  position: absolute;
+  top: 41.8128655%;
+  left: 57.60233918%;
+  width: 6.438819%;
+  height: 2.339181287%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud6 {
+  position: absolute;
+  top: 46.19883041%;
+  left: 47.67932489%;
+  width: 12.438819%;
+  height: 1.339181%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud7 {
+  position: absolute;
+  top: 20.1754386%;
+  left: 8.64978903%;
+  width: 12.438819%;
+  height: 1.339181%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud8 {
+  position: absolute;
+  top: 26.60818713%;
+  left: 5.274261603%;
+  width: 8.438818565%;
+  height: 2.339181287%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud9 {
+  position: absolute;
+  top: 29.8245614%;
+  left: 9.493670886%;
+  width: 8.438818565%;
+  height: 2.339181287%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud10 {
+  position: absolute;
+  top: 35.96491228%;
+  left: 3.797468354%;
+  width: 12.438819%;
+  height: 1.339181%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud11 {
+  position: absolute;
+  top: 62.28070175%;
+  left: 12.65822785%;
+  width: 2.438819%;
+  height: 1.339181%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud12 {
+  position: absolute;
+  top: 64.9122807%;
+  left: 6.329113924%;
+  width: 8.438818565%;
+  height: 2.339181287%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud13 {
+  position: absolute;
+  top: 67.83625731%;
+  left: 9.70464135%;
+  width: 8.438818565%;
+  height: 2.339181287%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud14 {
+  position: absolute;
+  top: 52.63157895%;
+  left: 63.92405063%;
+  width: 3.438819%;
+  height: 1.339181%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud15 {
+  position: absolute;
+  top: 55.26315789%;
+  left: 57.17299578%;
+  width: 8.438818565%;
+  height: 2.339181287%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud16 {
+  position: absolute;
+  top: 65.49707602%;
+  left: 49.15611814%;
+  width: 8.438818565%;
+  height: 2.339181287%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.clouds-white {
+  position: relative;
+  height: 0;
+  padding-bottom: 78.48101266%; /* 372/474 */
+  z-index: 2;
+}
+
+.cloud17 {
+  position: absolute;
+  background-image: url(../img/clouds-white.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 10.75949367%;
+  height: 7.894736842%;
+  top: -97.520468%;
+  left: 4.172996%;
+}
+
+.cloud18{
+  position: absolute;
+  background-image: url(../img/clouds-white.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 10.75949367%;
+  height: 7.894736842%;
+  top: -50.520468%;
+  left: 2.172996%;
+}
+
+.cloud19{
+  position: absolute;
+  background-image: url(../img/clouds-white.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 10.75949367%;
+  height: 7.894736842%;
+  top: -51.520468%;
+  left: 51.172996%;
+}
+
+.cloud20{
+  position: absolute;
+  background-image: url(../img/clouds-white.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 10.75949367%;
+  height: 7.894736842%;
+  top: -70.520468%;
+  left: 70.172996%;
+}
+
+.cloud21{
+  position: absolute;
+  background-image: url(../img/clouds-white.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 10.75949367%;
+  height: 7.894736842%;
+  top: -38.824561%;
+  left: 66.172996%;
+}
+
+.cloud22{
+  position: absolute;
+  background-image: url(../img/clouds-white.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 10.75949367%;
+  height: 7.894736842%;
+  top: -82.824561%;
+  left: 87.172996%;
+}
+
+.cloud23{
+  position: absolute;
+  background-image: url(../img/clouds-white.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 10.75949367%;
+  height: 7.894736842%;
+  top: -56.824561%;
+  left: 84.172996%;
+}
+
+.cloud24{
+  position: absolute;
+  background-image: url(../img/clouds-white.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 10.75949367%;
+  height: 7.894736842%;
+  top: -99.824561%;
+  left: 49.172996%;
+}
+
+.div-dividing-red-line {
+  position: relative;
+  height: 0;
+  padding-bottom: 3.164556962%; /* 15/474 */
+  background: #D0434D;
+}
+
+/*/////////////// Main Content Section  ///////////////*/
+
+.main-content {
+  position: relative;
+  height: 0;
+  padding-bottom: 178.48101266%; /* 846/474 */
+}
+
+.early-birds-bow {
+  position: absolute;
+  background-image: url(../img/bow-red.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 42.82700422%;
+  height: 9.574468085%; /*102/474*/
+  top: 7.210401891%;
+  left: 2.53164557%;
+  z-index: 2;
+}
+
+.night-owls-bow {
+  position: absolute;
+  background-image: url(../img/blue-bow.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 42.82700422%;
+  height: 11.574468%;
+  top: 7.210401891%;
+  left: 54.85232068%;
+  z-index: 2;
+}
+
+.early-birds-section h2 {
+  color: white;
+  position: absolute;
+  top: 8.856028%;
+  left: 12.07173%;
+  z-index: 3;
+  font-size: 1.5em;
+}
+
+.night-owls-section h2 {
+  color: white;
+  position: absolute;
+  top: 8.856028%;
+  left: 63.07173%;
+  z-index: 3;
+  font-size: 1.5em;
+}
+
+.vs {
+  color: white;
+  position: absolute;
+  top: 8.856028%;
+  left: 45.07173%;
+  z-index: 3;
+  font-size: 2.5em;
+}
+
+.moon {
+  position: absolute;
+  top: 4.495146%;
+  left: 59.670886%;
+  width: 13.08016878%;
+  height: 7.328605201%;
+  border-radius: 100px;
+  background-color: #F8AF1B;
+  z-index: 1;
+  transform: rotate(-9deg);
+  opacity: 0; 
+}
+
+.moon-circle {
+  position: absolute;
+  top: -2.504854%;
+  left: 43.670886%;
+  width: 56.4516129%;
+  height: 56.4516129%;
+  border-radius: 100px;
+  background-color: #1F2C3A;
+  z-index:3;
+  transform: rotate(-9deg); 
+}
+
+.sun4 {
+  position: absolute;
+  top: 4.495146%;
+  left: 10.670886%;
+  width: 13.08016878%;
+  height: 7.328605201%;
+  border-radius: 100px;
+  background-color: #F8AF1B;
+  z-index: 1;
+  transform: rotate(-9deg);
+}
+
+.sun-part-28 {
+  position: absolute;
+  top: -49.252427%;
+  left: 50%;
+  width: 4.6875%;
+  height: 18.91252955%;
+}
+
+.sun-part-29 {
+  position: absolute;
+  top: -44.252427%;
+  left: 83%;
+  width: 4.6875%;
+  height: 18.91252955%;
+  transform: rotate(25.714285714285714deg);
+}
+
+.sun-part-30 {
+  position: absolute;
+  top: -20.252427%;
+  left: 111%;
+  width: 4.6875%;
+  height: 18.91252955%;
+  transform: rotate(51.428571428571428deg);
+}
+
+.sun-part-31 {
+  position: absolute;
+  top: 12.747573%;
+  left: 128%;
+  width: 4.6875%;
+  height: 18.91252955%;
+  transform: rotate(77.142857142857142deg);
+}
+
+.sun-part-32 {
+  position: absolute;
+  top: 16.747573%;
+  left: -42%;
+  width: 4.6875%;
+  height: 18.91252955%;
+  transform: rotate(282.857142857142854deg);
+}
+
+.sun-part-33 {
+  position: absolute;
+  top: -18.747573%;
+  left: -28%;
+  width: 4.6875%;
+  height: 18.91252955%;
+  transform: rotate(308.571428571428568deg);
+}
+
+.sun-part-34 {
+  position: absolute;
+  top: -40.747573%;
+  left: 4%;
+  width: 4.6875%;
+  height: 18.91252955%;
+  transform: rotate(334.285714285714282deg);
+}
+
+.sun-ray4 {
+  position: relative;
+  width: 100%;
+  height: 20%;
+  border-radius: 10px;
+  background-color: #F8AF1B;
+  margin-top: 1px;
+  transform: translate(20%);
+}
+
+
+.clouds-dark4 {
+  position: relative;
+  height: 0;
+  padding-bottom: 178.48101266%; /* 846/474 */
+  z-index: 1;
+}
+
+.cloud57 {
+  position: absolute;
+  top: 5.621359%;
+  left: 29.776371%;
+  width: 8.438819%;
+  height: 0.9708737864%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud58 {
+  position: absolute;
+  top: 1.980583%;
+  left: 14.55696203%;
+  width: 5.438819%;
+  height: 0.6708737864%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud59 {
+  position: absolute;
+  top: 10.67961165%;
+  left: 4.219409283%;
+  width: 5.438819%;
+  height: 0.6708737864%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud60 {
+  position: absolute;
+  top: 14.27184466%;
+  left: 3.797468354%;
+  width: 8.438819%;
+  height: 0.9708737864%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud61 {
+  position: absolute;
+  top: 1.592233%;
+  left: 60.75949367%;
+  width: 5.938819%;
+  height: 0.8708737864%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud62 {
+  position: absolute;
+  top: 4.631068%;
+  left: 76.35443%;
+  width: 8.438819%;
+  height: 0.9708737864%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud63 {
+  position: absolute;
+  top: 18.669903%;
+  left: 29.92827%;
+  width: 8.438819%;
+  height: 0.270874%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud64 {
+  position: absolute;
+  top: 15.796117%;
+  left: 20.312236%;
+  width: 5.438819%;
+  height: 0.4708737864%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud65 {
+  position: absolute;
+  top: 13.475728%;
+  left: 60.75949367%;
+  width: 5.438819%;
+  height: 0.6708737864%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud66 {
+  position: absolute;
+  top: 2.912621359%;
+  left: 89.067511%;
+  width: 5.438819%;
+  height: 0.6708737864%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud67 {
+  position: absolute;
+  top: 18.135922%;
+  left: 77.6371308%;
+  width: 8.438819%;
+  height: 0.9708737864%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud68 {
+  position: absolute;
+  top: 13.68932039%;
+  left: 88.39662447%;
+  width: 8.438819%;
+  height: 0.9708737864%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud69 {
+  position: absolute;
+  background-image: url(../img/single-cloud-white.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 10.75949367%;
+  height: 7.894736842%;
+  top: 15.175439%;
+  left: 15.172996%;
+}
+
+.cloud70 {
+  position: absolute;
+  background-image: url(../img/single-cloud-white.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 10.75949367%;
+  height: 7.894736842%;
+  top: 0.368932%;
+  left: 4.641350211%;
+}
+
+.cloud71 {
+  position: absolute;
+  background-image: url(../img/single-cloud-white.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 10.75949367%;
+  height: 7.894736842%;
+  top: -3.281553%;
+  left: 32.021097%;
+}
+
+.cloud72 {
+  position: absolute;
+  background-image: url(../img/single-cloud-white.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 10.75949367%;
+  height: 7.894736842%;
+  top: 19.932039%;
+  left: 31.021097%;
+}
+
+.cloud73 {
+  position: absolute;
+  background-image: url(../img/dark-cloud.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 10.75949367%;
+  height: 7.894736842%;
+  top: 16.932039%;
+  left: 79.021097%;
+}
+
+.cloud74 {
+  position: absolute;
+  background-image: url(../img/dark-cloud.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 10.75949367%;
+  height: 7.894736842%;
+  top: -1.067961%;
+  left: 83.021097%;
+}
+
+.cloud75 {
+  position: absolute;
+  background-image: url(../img/dark-cloud.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 10.75949367%;
+  height: 7.894736842%;
+  top: 13.932039%;
+  left: 58.021097%;
+}
+
+.cloud76 {
+  position: absolute;
+  background-image: url(../img/dark-cloud.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 10.75949367%;
+  height: 7.894736842%;
+  top: -3.067961%;
+  left: 52.021097%;
+}
+
+.tree-left {
+  position: absolute;
+  background-image: url(../img/tree-left.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  /*  width: 50%; // original*/  
+  width: 0%;
+  height: 18.91252955%;
+  top: 30.14184397%;
+  right: 50%;
+  z-index: 2;
+}
+
+.tree-right {
+  position: absolute;
+  background-image: url(../img/tree-right.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 0%;
+  height: 18.91252955%;
+  top: 31.641844%;
+  left: 50%;
+  z-index: 2;
+}
+
+.bird {
+  position: absolute;
+  background-image: url(../img/yellow-bird.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 22.57383966%;
+  height: 20.6855792%;
+  top: 25.17730496%;
+  left: 15.82278481%;
+  z-index: 3;
+}
+
+.owl {
+  position: absolute;
+  background-image: url(../img/owl.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 25.73839662%;
+  height: 18.67612293%;
+  top: 27.89598109%;
+  left: 60.54852321%;
+  z-index: 4;
+}
+
+.early-birds-section h3 {
+  position: absolute;
+  top: 53.07328605%;
+  left: 12.236287%;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+
+.thin-red-line5 {
+  position: absolute;
+  top: 57.09219858%;
+  left: 3.164556962%;
+  /*  width: 42.82700422%; //original*/
+  width: 0%;
+  height: 0.1181%;
+  border-radius: 5px;
+  background-color: #E46677;
+} 
+
+.list-dot5 {
+  position: absolute;
+  top: 60%;
+  left: 5.956962%;
+  width: 1.687763713%;
+  height: 0.8737864078%;
+  border-radius: 10px;
+  background-color: #E46677;
+}
+
+.early-birds-list1 {
+  position: absolute;
+  top: 59.69267139%;
+  left: 8.860759494%;
+  font-size: .8em;
+  line-height: 15px;
+}
+
+.list-dot6 {
+  position: absolute;
+  top: 63.82978723%;
+  left: 5.956962%;
+  width: 1.687763713%;
+  height: 0.8737864078%;
+  border-radius: 10px;
+  background-color: #E46677;
+}
+
+.early-birds-list2 {
+  position: absolute;
+  top: 63.82978723%;
+  left: 8.860759494%;
+  font-size: .8em;
+  line-height: 15px;
+}
+
+
+.list-dot7 {
+  position: absolute;
+  top: 69.73995272%;
+  left: 5.956962%;
+  width: 1.687763713%;
+  height: 0.8737864078%;
+  border-radius: 10px;
+  background-color: #E46677;
+}
+
+.early-birds-list3 {
+  position: absolute;
+  top: 69.73995272%;
+  left: 8.860759494%;
+  font-size: .8em;
+  line-height: 15px;
+}
+
+.list-dot8 {
+  position: absolute;
+  top: 77.89598109%;
+  left: 5.956962%;
+  width: 1.687763713%;
+  height: 0.8737864078%;
+  border-radius: 10px;
+  background-color: #E46677;
+}
+
+.early-birds-list4 {
+  position: absolute;
+  top: 77.89598109%;
+  left: 8.860759494%;
+  font-size: .8em;
+}
+
+.night-owls-section h3 {
+  position: absolute;
+  top: 53.07328605%;
+  left: 63.025316%;
+  font-weight: 700;
+  color: #FBD21E;
+  font-size: 1.5em;
+}
+
+
+.thin-red-line6 {
+  position: absolute;
+  top: 57.09219858%;
+  left: 53.37552743%;
+  width: 42.82700422%;
+  height: 0.1181%;
+  border-radius: 5px;
+  background-color: #E46677;
+} 
+
+.list-dot9 {
+  position: absolute;
+  top: 60%;
+  left: 54.00843882%;
+  width: 1.687763713%;
+  height: 0.8737864078%;
+  border-radius: 10px;
+  background-color: #E46677;
+}
+
+.early-birds-list5 {
+  position: absolute;
+  top: 59.69267139%;
+  left: 56.860759%;
+  font-size: .8em;
+  color: #FFF;
+  line-height: 15px;
+
+}
+
+.list-dot10 {
+  position: absolute;
+  top: 69.029787%;
+  left: 54.00843882%;
+  width: 1.687763713%;
+  height: 0.8737864078%;
+  border-radius: 10px;
+  background-color: #E46677;
+}
+
+.early-birds-list6 {
+  position: absolute;
+  top: 68.829787%;
+  left: 56.860759%;
+  font-size: .8em;
+  color: #FFF;
+  line-height: 15px;
+}
+
+
+.list-dot11 {
+  position: absolute;
+  top: 75.139953%;
+  left: 54.00843882%;
+  width: 1.687763713%;
+  height: 0.8737864078%;
+  border-radius: 10px;
+  background-color: #E46677;
+}
+
+.early-birds-list7 {
+  position: absolute;
+  top: 74.739953%;
+  left: 56.860759%;
+  font-size: .8em;
+  color: #FFF;
+  line-height: 15px;
+}
+
+.dark-background {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  background-color: #1F2C3A;
+  left: 50%;
+  opacity: .3;
+}
+
+.duo-city {
+  position: absolute;
+  background-image: url(../img/duo-city2.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 100%;
+  height: 10.63829787%; /*90/846*/
+  bottom: 0;
+}
+
+/*/////////////// Main Section  ///////////////*/
+
+.main {
+  position: relative;
+  height: 0;
+  padding-bottom: 217.29957806%; /* 1030/474 */
+}
+
+.sks-bow {
+  position: absolute;
+  background-image: url(../img/sts-bow.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 65.82278481%;
+  height: 9.902912621%; /*102/474*/
+  top: 5.72815534%;
+  left: 17.08860759%;
+  z-index: 2;
+}
+
+.main h2 {
+  color: white;
+  position: absolute;
+  top: 7.5%;
+  left: 32%;
+  z-index: 3;
+  font-size: 1.5em;
+}
+
+.sun2 {
+  position: absolute;
+  top: 3.495145631%;
+  left: 43.67088608%;
+  width: 13.08016878%;
+  height: 6.019417476%;
+  border-radius: 100px;
+  background-color: #F8AF1B;
+  z-index: 1;
+}
+
+.sun-part-15 {
+  position: absolute;
+  top: -49.252427%;
+  left: 50%;
+  width: 4.6875%;
+  height: 21.875%;
+}
+
+.sun-part-16 {
+  position: absolute;
+  top: -44.252427%;
+  left: 83%;
+  width: 4.6875%;
+  height: 21.875%;
+  transform: rotate(25.714285714285714deg);
+}
+
+.sun-part-17 {
+  position: absolute;
+  top: -20.252427%;
+  left: 111%;
+  width: 4.6875%;
+  height: 21.875%;
+  transform: rotate(51.428571428571428deg);
+}
+
+.sun-part-18 {
+  position: absolute;
+  top: 12.747573%;
+  left: 128%;
+  width: 4.6875%;
+  height: 21.875%;
+  transform: rotate(77.142857142857142deg);
+}
+
+.sun-part-19 {
+  position: absolute;
+  top: 16.747573%;
+  left: -42%;
+  width: 4.6875%;
+  height: 21.875%;
+  transform: rotate(282.857142857142854deg);
+}
+
+.sun-part-20 {
+  position: absolute;
+  top: -18.747573%;
+  left: -28%;
+  width: 4.6875%;
+  height: 21.875%;
+  transform: rotate(308.571428571428568deg);
+}
+
+.sun-part-21 {
+  position: absolute;
+  top: -40.747573%;
+  left: 4%;
+  width: 4.6875%;
+  height: 21.875%;
+  transform: rotate(334.285714285714282deg);
+}
+
+.sun-ray2 {
+  position: relative;
+  width: 100%;
+  height: 20%;
+  border-radius: 10px;
+  background-color: #F8AF1B;
+  margin-top: 1px;
+  transform: translate(20%);
+}
+
+.clouds-dark2 {
+  position: relative;
+  height: 0;
+  padding-bottom: 217.29957806%; /* 1030/474 */
+  z-index: 3;
+}
+
+.cloud25 {
+  position: absolute;
+  top: 2.621359223%;
+  left: 18.77637131%;
+  width: 8.438819%;
+  height: 0.9708737864%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud26 {
+  position: absolute;
+  top: 3.980582524%;
+  left: 14.55696203%;
+  width: 5.438819%;
+  height: 0.6708737864%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud27 {
+  position: absolute;
+  top: 10.67961165%;
+  left: 4.219409283%;
+  width: 5.438819%;
+  height: 0.6708737864%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud28 {
+  position: absolute;
+  top: 14.27184466%;
+  left: 3.797468354%;
+  width: 8.438819%;
+  height: 0.9708737864%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud29 {
+  position: absolute;
+  top: 3.59223301%;
+  left: 60.75949367%;
+  width: 5.938819%;
+  height: 0.8708737864%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud30 {
+  position: absolute;
+  top: 5.631067961%;
+  left: 68.35443038%;
+  width: 8.438819%;
+  height: 0.9708737864%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud31 {
+  position: absolute;
+  top: 17.66990291%;
+  left: 40.92827004%;
+  width: 8.438819%;
+  height: 1.2708737864%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud32 {
+  position: absolute;
+  top: 16.7961165%;
+  left: 48.31223629%;
+  width: 5.438819%;
+  height: 0.4708737864%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud33 {
+  position: absolute;
+  top: 17.47572816%;
+  left: 60.75949367%;
+  width: 5.438819%;
+  height: 0.6708737864%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud34 {
+  position: absolute;
+  top: 2.912621359%;
+  left: 82.06751055%;
+  width: 5.438819%;
+  height: 0.6708737864%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud35 {
+  position: absolute;
+  top: 12.13592233%;
+  left: 77.6371308%;
+  width: 8.438819%;
+  height: 0.9708737864%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud36 {
+  position: absolute;
+  top: 13.68932039%;
+  left: 88.39662447%;
+  width: 8.438819%;
+  height: 0.9708737864%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud37 {
+  position: absolute;
+  background-image: url(../img/single-cloud-white.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 10.75949367%;
+  height: 7.894736842%;
+  top: 23.175439%;
+  left: 49.172996%;
+}
+
+.cloud38 {
+  position: absolute;
+  background-image: url(../img/single-cloud-white.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 10.75949367%;
+  height: 7.894736842%;
+  top: 0.368932%;
+  left: 4.641350211%;
+}
+
+.cloud39 {
+  position: absolute;
+  background-image: url(../img/single-cloud-white.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 10.75949367%;
+  height: 7.894736842%;
+  top: -4.281553%;
+  left: 85.02109705%;
+}
+
+.cloud40 {
+  position: absolute;
+  background-image: url(../img/single-cloud-white.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 10.75949367%;
+  height: 7.894736842%;
+  top: 2.932039%;
+  left: 80.021097%;
+}
+
+.alarm1 {
+  position: relative;
+  height: 0;
+  padding-bottom: 217.29957806%; /* 1030/474 */
+  z-index: 3;
+}
+
+.clock1 {
+  position: absolute;
+  background-image: url(../img/alarm.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 32.70042194%;
+  height: 17.048544%;
+  top: -78.961165%;
+  left: 33.33333333%;
+}
+
+.bell-left1 {
+  position: absolute;
+  background-image: url(../img/alarm-left.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 16.03375527%;
+  height: 6.213592233%;
+  top: -82.165049%;
+  left: 31.64556962%;
+}
+
+.bell-right1 {
+  position: absolute;
+  background-image: url(../img/alarm-right.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 15.82278481%;
+  height: 6.601941748%;
+  top: -82.165049%;
+  left: 52.10970464%;
+}
+
+.middle-clock-button1 {
+  position: absolute;
+  top: -71.519417%;
+  left: 47.956962%;
+  width: 3.797468354%;
+  height: 1.747572816%;
+  border-radius: 10px;
+  background-color: #653223;
+}
+
+.small-clock-hand1 {
+  position: absolute;
+  top: -70.519417%;
+  left: 48.956962%;
+  width: 1.476793249%;
+  height: 3.786407767%;
+  border-radius: 10px;
+  background-color: #653223;
+}
+
+.large-clock-hand1 {
+  position: absolute;
+  top: -75.519417%;
+  left: 48.956962%;
+  width: 1.476793249%;
+  height: 4.368932039%;
+  border-radius: 10px;
+  background-color: #653223;
+}
+
+.alarm-move-left1-1 {
+  position: absolute;
+  background-image: url(../img/alarm-move-left.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 3.274262%;
+  height: 9.466019%;
+  top: -81.359223%;
+  left: 24.109705%;
+}
+
+.alarm-move-left2-1 {
+  position: absolute;
+  background-image: url(../img/alarm-move-left.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 3.274262%;
+  height: 9.466019%;
+  top: -80.359223%;
+  left: 20.109705%;
+}
+
+.alarm-move-right1-1 {
+  position: absolute;
+  background-image: url(../img/alarm-move-right.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 3.274262%;
+  height: 9.466019%;
+  top: -81.359223%;
+  left: 71.109705%;
+}
+
+.alarm-move-right2-1 {
+  position: absolute;
+  background-image: url(../img/alarm-move-right.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 3.274262%;
+  height: 9.466019%;
+  top: -80.359223%;
+  left: 75.109705%;
+}
+
+.thin-red-line1 {
+  position: absolute;
+  top: 39.91462%;
+  left: 4.151899%;
+  width: 91.907173%;
+  height: 0.1181%;
+  border-radius: 5px;
+  background-color: #E46677;
+} 
+
+.list-dot1 {
+  position: absolute;
+  top: 43.6%;
+  left: 5.956962%;
+  width: 1.687763713%;
+  height: 0.8737864078%;
+  border-radius: 10px;
+  background-color: #E46677;
+}
+
+.reason-snooze-off1 {
+  position: absolute;
+  top: 43.5%;
+  left: 9.493670886%;
+  font-size: .9em;
+  line-height: 10px;
+}
+
+/*.bed {
+  position: absolute;
+  background-image: url(../img/bed.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 29.32489451%;
+    height: 24.582524%;
+    top: 34.927184%;
+  left: 59.91561181%;
+}*/
+
+.thin-red-line2 {
+  position: absolute;
+  top: 53.91462%;
+  left: 4.151899%;
+  width: 91.907173%;
+  height: 0.1181%;
+  border-radius: 5px;
+  background-color: #E46677;
+}
+
+
+.list-dot2 {
+  position: absolute;
+  top: 69.6%;
+  left: 5.956962%;
+  width: 1.687763713%;
+  height: 0.8737864078%;
+  border-radius: 10px;
+  background-color: #E46677;
+}
+
+.reason-snooze-off2 {
+  position: absolute;
+  top: 69.5%;
+  left: 9.493670886%;
+  font-size: .9em;
+  line-height: 10px;
+}
+
+.list-dot3 {
+  position: absolute;
+  top: 62.6%;
+  left: 8.956962%;
+  width: 1.687763713%;
+  height: 0.8737864078%;
+  border-radius: 10px;
+  background-color: #FBC454;
+}
+
+.reason-snooze-off3 {
+  position: absolute;
+  top: 62.5%;
+  left: 12.493671%;
+  font-size: 0.8em;
+  line-height: 10px;
+}
+
+.red-circle {
+  position: absolute;
+  top: 56.8%;
+  left: 67.151899%;
+  width: 22.3628692%;
+  height: 10.29126214%;
+  border-radius: 100px;
+  background-color: #D9404D;
+}
+
+.eye-part1 {
+  position: absolute;
+  top: 59.8%;
+  left: 69.151899%;
+  width: 19.62025316%;
+  height: 6.40776699%;
+  border-top-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  background-color: #FFF;
+  transform: rotate(28deg);
+}
+
+.eye-part2 {
+  position: absolute;
+  top: 60.5%;
+  left: 73.2%;
+  width: 11.81434599%;
+  height: 5.436893204%;
+  border-radius: 50px;
+  background-color: #188CC8;
+  border: 2px solid black;
+}
+
+.eye-part3 {
+  position: absolute;
+  top: 61%;
+  left: 74.3%;
+  width: 9.70464135%;
+  height: 4.466019417%;
+  border-radius: 50px;
+  background-color: #FBC454;
+}
+
+.eye-part4 {
+  position: absolute;
+  top: 61.9%;
+  left: 76.4%;
+  width: 6.11814346%;
+  height: 2.815533981%;
+  border-radius: 50px;
+  background-color: #68341A;
+}
+
+.eye-part5 {
+  position: absolute;
+  top: 62.3%;
+  left: 79.92%;
+  width: 2.53164557%;
+  height: 1.165048544%;
+  border-radius: 50px;
+  background-color: #FBC454;
+}
+
+.eye-part6 {
+  position: absolute;
+  top: 63.7%;
+  left: 77.6%;
+  width: 1.687763713%;
+  height: 0.7766990291%;
+  border-radius: 50px;
+  background-color: #FFF;
+}
+
+.alarm2 {
+  position: relative;
+  height: 0;
+  padding-bottom: 217.29957806%; /* 1030/474 */
+  z-index: 3;
+}
+
+.clock2 {
+  position: absolute;
+  background-image: url(../img/alarm.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 8.438818565%;
+  height: 4.883495%;
+  top: -142.961165%;
+  left: 85.333333%;
+}
+
+.bell-left2 {
+  position: absolute;
+  background-image: url(../img/alarm-left.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 3.797468354%;
+  height: 1.5533980583%;
+  top: -143.261165%;
+  left: 85.333333%;
+}
+
+.bell-right2 {
+  position: absolute;
+  background-image: url(../img/alarm-right.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 4.219409283%;
+  height: 6.601941748%;
+  top: -148.119999%;
+  left: 90.333333%;
+}
+
+/*.middle-clock-button2 {
+  position: absolute;
+  top: -69.519417%;
+  left: 47.956962%;
+  width: 0.01054852321%;
+  height: 0.04854368932%;
+  border-radius: 10px;
+  background-color: #653223;
+}
+
+.small-clock-hand2 {
+  position: absolute;
+  top: -68.519417%;
+  left: 48.956962%;
+  width: 1.476793249%;
+  height: 3.786407767%;
+  border-radius: 10px;
+  background-color: #653223;
+}
+
+.large-clock-hand2 {
+  position: absolute;
+  top: -73.519417%;
+  left: 48.956962%;
+  width: 1.476793249%;
+  height: 4.368932039%;
+  border-radius: 10px;
+  background-color: #653223;
+}*/
+
+.alarm-move-left1-2 {
+  position: absolute;
+  background-image: url(../img/alarm-move-left.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 0.8438818565%;
+  height: 2.126214%;
+  top: -142.359223%;
+  left: 83.109705%;
+}
+
+.alarm-move-left2-2 {
+  position: absolute;
+  background-image: url(../img/alarm-move-left.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 0.8438818565%;
+  height: 2.126214%;
+  top: -142.359223%;
+  left: 82.109705%;
+}
+
+.alarm-move-right1-2 {
+  position: absolute;
+  background-image: url(../img/alarm-move-right.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 0.8438818565%;
+  height: 2.126214%;
+  top: -142.359223%;
+  left: 95.109705%;
+}
+
+.alarm-move-right2-2 {
+  position: absolute;
+  background-image: url(../img/alarm-move-right.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 0.8438818565%;
+  height: 2.126214%;
+  top: -142.359223%;
+  left: 96.109705%;
+}
+
+.thin-red-line3 {
+  position: absolute;
+  top: 68.8%;
+  left: 4.151899%;
+  width: 91.907173%;
+  height: 0.1181%;
+  border-radius: 5px;
+  background-color: #E46677;
+}
+
+.list-dot4 {
+  position: absolute;
+  top: 71.7%;
+  left: 5.956962%;
+  width: 1.687763713%;
+  height: 0.8737864078%;
+  border-radius: 10px;
+  background-color: #E46677;
+}
+.reason-snooze-off4 {
+  position: absolute;
+  top: 71.6%;
+  left: 9.493670886%;
+  font-size: .9em;
+  line-height: 10px;
+}
+
+.small-gallery {
+  position: absolute;
+  height: 0;
+  padding-bottom: 40.08438819%; /* 190/474 */
+  top: 83%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  z-index: 3;
+}
+
+.rem-img-1 {
+  position: absolute;
+  background-image: url(../img/rem-img1.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 18.98734177%;
+  height: 47.36842105%;
+  top: -45.105263%;
+  left: 8.64978903%;
+}
+
+.rem-img-2 {
+  position: absolute;
+  background-image: url(../img/rem-img2.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 18.98734177%;
+  height: 47.36842105%;
+  top: -45.105263%;
+  left: 39.45147679%;
+}
+
+.rem-img-3 {
+  position: absolute;
+  background-image: url(../img/rem-img3.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 18.98734177%;
+  height: 55.368421%;
+  top: -45.105263%;
+  left: 70.25316456%;
+}
+
+.small-gallery span {
+  position: relative;
+  margin: 20px;
+  text-align: center;
+  position: relative;
+  padding-left: 20px;
+  font-size: 0.8em;
+}
+
+.city-blue1 {
+  position: absolute;
+  background-image: url(../img/city-blue.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  width: 100%;
+  height: 97.08737864%;
+  bottom: -900px;
+}
+
+.ten-things {
+  position: relative;
+  height: 0;
+  padding-bottom: 299.78902954%; /* 1412/474 */
+}
+
+.big-red-bow {
+  position: absolute;
+  background-image: url(../img/big-red-bow.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 75.94936709%;
+  height: 9.844192635%;
+  top: 3.541076487%;
+  left: 11.81434599%;
+  z-index: 2;
+}
+
+/*///////// NOT DONE YET ///////////////*/
+
+.sun3 {
+  position: absolute;
+  top: 2.495146%;
+  left: 43.67088608%;
+  width: 13.08016878%;
+  height: 4.390934844%;
+  border-radius: 100px;
+  background-color: #F8AF1B;
+  z-index: 1;
+}
+
+.sun-part-22 {
+  position: absolute;
+  top: -49.252427%;
+  left: 50%;
+  width: 4.838709677%;
+  height: 25.80645161%;
+}
+
+.sun-part-23 {
+  position: absolute;
+  top: -49.252427%;
+  left: 50%;
+  width: 4.838709677%;
+  height: 25.80645161%;
+}
+
+.sun-part-24 {
+  position: absolute;
+  top: -44.252427%;
+  left: 83%;
+  width: 4.838709677%;
+  height: 25.80645161%;
+  transform: rotate(25.714285714285714deg);
+}
+
+.sun-part-25 {
+  position: absolute;
+  top: -20.252427%;
+  left: 111%;
+  width: 4.838709677%;
+  height: 25.80645161%;
+  transform: rotate(51.428571428571428deg);
+}
+
+.sun-part-26 {
+  position: absolute;
+  top: -18.747573%;
+  left: -28%;
+  width: 4.838709677%;
+  height: 25.80645161%;
+  transform: rotate(308.571428571428568deg);
+}
+
+.sun-part-27 {
+  position: absolute;
+  top: -40.747573%;
+  left: 4%;
+  width: 4.838709677%;
+  height: 25.80645161%;
+  transform: rotate(334.285714285714282deg);
+}
+
+.sun-ray3 {
+  position: relative;
+  width: 100%;
+  height: 20%;
+  border-radius: 10px;
+  background-color: #F8AF1B;
+  margin-top: 1px;
+  transform: translate(20%);
+}
+
+.ten-things h2 {
+    color: white;
+    position: absolute;
+    top: 5.5%;
+    left: 23%;
+    z-index: 3;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.clouds-dark2 {
+  position: relative;
+  height: 0;
+  padding-bottom: 217.29957806%; /* 1030/474 */
+  z-index: 3;
+}
+
+.cloud41 {
+  position: absolute;
+  top: 2.621359223%;
+  left: 18.77637131%;
+  width: 8.438819%;
+  height: 0.9708737864%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud42 {
+  position: absolute;
+  top: 3.980582524%;
+  left: 14.55696203%;
+  width: 5.438819%;
+  height: 0.6708737864%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud43 {
+  position: absolute;
+  top: 10.67961165%;
+  left: 4.219409283%;
+  width: 5.438819%;
+  height: 0.6708737864%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud44 {
+  position: absolute;
+  top: 14.27184466%;
+  left: 3.797468354%;
+  width: 8.438819%;
+  height: 0.9708737864%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud45 {
+  position: absolute;
+  top: 3.59223301%;
+  left: 60.75949367%;
+  width: 5.938819%;
+  height: 0.8708737864%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud46 {
+  position: absolute;
+  top: 5.631067961%;
+  left: 68.35443038%;
+  width: 8.438819%;
+  height: 0.9708737864%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud47 {
+  position: absolute;
+  top: 10.669903%;
+  left: 40.92827004%;
+  width: 8.438819%;
+  height: 0.270874%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud48 {
+  position: absolute;
+  top: 11.796117%;
+  left: 48.31223629%;
+  width: 5.438819%;
+  height: 0.4708737864%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud49 {
+  position: absolute;
+  top: 13.475728%;
+  left: 60.75949367%;
+  width: 5.438819%;
+  height: 0.6708737864%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud50 {
+  position: absolute;
+  top: 2.912621359%;
+  left: 82.06751055%;
+  width: 5.438819%;
+  height: 0.6708737864%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud51 {
+  position: absolute;
+  top: 12.13592233%;
+  left: 77.6371308%;
+  width: 8.438819%;
+  height: 0.9708737864%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud52 {
+  position: absolute;
+  top: 13.68932039%;
+  left: 88.39662447%;
+  width: 8.438819%;
+  height: 0.9708737864%;
+  border-radius: 5px;
+  background-color: #199FC1;
+}
+
+.cloud53 {
+  position: absolute;
+  background-image: url(../img/single-cloud-white.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 10.75949367%;
+  height: 7.894736842%;
+  top: 26.175439%;
+  left: 49.172996%;
+}
+
+.cloud54 {
+  position: absolute;
+  background-image: url(../img/single-cloud-white.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 10.75949367%;
+  height: 7.894736842%;
+  top: 0.368932%;
+  left: 4.641350211%;
+}
+
+.cloud55 {
+  position: absolute;
+  background-image: url(../img/single-cloud-white.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 10.75949367%;
+  height: 7.894736842%;
+  top: -4.281553%;
+  left: 85.02109705%;
+}
+
+.cloud56 {
+  position: absolute;
+  background-image: url(../img/single-cloud-white.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 10.75949367%;
+  height: 7.894736842%;
+  top: 2.932039%;
+  left: 80.021097%;
+}
+
+.ten-images {
+  display: flex;
+  flex-direction: column;
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  font-size: .9em;
+}
+
+.img1 {
+  position: absolute;
+  background-image: url(../img/ten-thing-img1.png);
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  width: 100%;
+  /*  width: 28.27004219%; //original*/
+  height: 29.11392405%;
+  top: -3.78187%;
+  left: 14.34599156%;
+}
+
+.ten1 {
+  position: absolute;
+  top: 26.5%;
+  left: 15%;
+  z-index: 3;
+  text-align: center;
+}
+
+.img2 {
+  position: absolute;
+  background-image: url(../img/ten-thing-img2.png);
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  width: 100%;
+  height: 29.11392405%;
+  top: -3.78187%;
+  left: 56.96202532%;
+}
+
+.ten2 {
+  position: absolute;
+  top: 26.5%;
+  left: 61%;
+  z-index: 3;
+  text-align: center;
+}
+
+.img3 {
+  position: absolute;
+  background-image: url(../img/ten-thing-img3.png);
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  width: 100%;
+  height: 29.11392405%;
+  top: 11.586402%;
+  left: 14.34599156%;
+}
+
+.ten3 {
+  position: absolute;
+  top: 41.5%;
+  left: 13%;
+  z-index: 3;
+  text-align: center;
+}
+
+.img4 {
+  position: absolute;
+  background-image: url(../img/ten-thing-img4.png);
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  width: 100%;
+  height: 29.11392405%;
+  top: 11.586402%;
+  left: 56.96202532%;
+}
+
+.ten4 {
+  position: absolute;
+  top: 41.5%;
+  left: 61%;
+  z-index: 3;
+  text-align: center;
+}
+
+.img5 {
+  position: absolute;
+  background-image: url(../img/ten-thing-img5.png);
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  width: 100%;
+  height: 29.11392405%;
+  top: 27.586402%;
+  left: 14.34599156%;
+}
+
+.ten5 {
+  position: absolute;
+  top: 57.5%;
+  left: 13%;
+  z-index: 3;
+  text-align: center;
+}
+
+.img6 {
+  position: absolute;
+  background-image: url(../img/ten-thing-img6.png);
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  width: 100%;
+  height: 29.11392405%;
+  top: 27.586402%;
+  left: 56.96202532%;
+}
+
+.ten6 {
+  position: absolute;
+  top: 57.5%;
+  left: 61%;
+  z-index: 3;
+  text-align: center;
+}
+
+.img7 {
+  position: absolute;
+  background-image: url(../img/ten-thing-img7.png);
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  width: 100%;
+  height: 29.11392405%;
+  top: 43.586402%;
+  left: 14.34599156%;
+}
+
+.ten7 {
+  position: absolute;
+  top: 73.5%;
+  left: 13%;
+  z-index: 3;
+  text-align: center;
+}
+
+.img8 {
+  position: absolute;
+  background-image: url(../img/ten-thing-img8.png);
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  width: 100%;
+  height: 29.11392405%;
+  top: 43.586402%;
+  left: 56.96202532%;
+}
+
+.ten8 {
+  position: absolute;
+  top: 73.5%;
+  left: 61%;
+  z-index: 3;
+  text-align: center;
+}
+
+
+.img9 {
+  position: absolute;
+  background-image: url(../img/ten-thing-img9.png);
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  width: 100%;
+  height: 29.11392405%;
+  top: 59.586402%;
+  left: 14.34599156%;
+}
+
+.ten9 {
+  position: absolute;
+  top: 89.5%;
+  left: 13%;
+  z-index: 3;
+  text-align: center;
+}
+
+.img10 {
+  position: absolute;
+  background-image: url(../img/ten-thing-img10.png);
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  width: 100%;
+  height: 29.11392405%;
+  top: 59.586402%;
+  left: 56.96202532%;
+}
+
+.ten10 {
+  position: absolute;
+  top: 89.5%;
+  left: 61%;
+  z-index: 3;
+  text-align: center;
+}
+
+
+.city-blue2 {
+  position: absolute;
+  background-image: url(../img/city-blue.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+  width: 100%;
+  height: 97.08737864%;
+  bottom: 0;
+}
+
+.thin-red-line4 {
+  position: absolute;
+  top: 15.8%;
+  left: 50.151899%;
+  height: 77.907173%;
+  width: 0.1181%;
+  border-radius: 5px;
+  background-color: #E46677;
+}
+.clouds-white4 {
+  position:absolute;
+  padding-bottom: 100%;
+  z-index: 100;
+  height:100px;
+  width:500px;
+  top: 2%;
+}
+
+.dark-cloud {
+  position:absolute;
+  padding-bottom: 100%;
+  z-index: 2;
+  height:100px;
+  width:500px;
+  top: 2%;
+}
+
+.list-item1 {
+  position:absolute;
+  padding-bottom: 100%;
+  z-index: 100;
+  height:100px;
+  width:500px;
+  top: 25%;
+}
+
+.list-item2 {
+  position:absolute;
+  padding-bottom: 100%;
+  z-index: 100;
+  height:100px;
+  width:500px;
+  top: 25%;
+}
+
+.list-item3 {
+  position:absolute;
+  padding-bottom: 100%;
+  z-index: 100;
+  height:100px;
+  width:500px;
+  top: 39%;
+}
+
+.clouds-white2 {
+  position:absolute;
+  padding-bottom: 100%;
+  z-index: 100;
+  height:100px;
+  width:500px;
+  top: 2%;
+}
+
+.clouds-white3 {
+  position:absolute;
+  padding-bottom: 100%;
+  z-index: 100;
+  height:100px;
+  width:500px;
+  top: 2%;
+}
+
+.dark-white3 {
+  position:absolute;
+  padding-bottom: 100%;
+  z-index: 100;
+  height:100px;
+  width:500px;
+  top: 2%;
+}
+
+.muscles {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 20%;
+  left: 16%;
+}
+
+.muscle1 {
+  width: 5px;
+  height: 20px;
+  background-color: #FFF;
+  margin-right: 20px;
+  position: relative;
+  transform: rotate(-20deg);
+  opacity: 0;
+}
+
+.muscle2 {
+  width: 5px;
+  height: 20px;
+  background-color: #FFF;
+  margin-right: 20px;
+  position: relative;
+  top: 18%;
+  opacity: 0;
+
+}
+
+.muscle3 {
+  width: 5px;
+  height: 20px;
+  background-color: #FFF;
+  margin-right: 20px;
+  position: relative;
+  transform: rotate(20deg);
+  opacity: 0;
+
+}
+
+.checklist {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 20%;
+  left: 62%;
+}
+
+.check1 {
+  width: 10px;
+  height: 50px;
+  background-color: white;
+  position: absolute;
+  transform: rotate(-40deg);
+  top: 20%;
+  left: 18px;
+  border-top: 1px solid #6A3518;
+  border-left: 1px solid #6A3518;
+  border-right: 1px solid #6A3518;
+}
+
+.check2 {
+  width: 10px;
+  height: 100px;
+  background-color: white;
+  position: absolute;
+  transform: rotate(30deg);
+  top: -45px;
+  left: 58px;
+  border-top: 1px solid #6A3518;
+  border-left: 1px solid #6A3518;
+  border-right: 1px solid #6A3518;
+  border-bottom: 1px solid#6A3518;
+}
+
+.prio {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 34.3%;
+  left: 62%;
+  transform: rotate(-12deg);
+}
+
+.prio1,
+.prio2,
+.prio3 {
+  margin-bottom: 20%;
+}
+
+
+.bubble {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 61.3%;
+  left: 76%;
+  z-index: 2;
+
+}
+
+.bubble1 {
+  width: 100px;
+  height: 50px;
+  border-radius: 26px;
+  background-color: #FFF;
+  position: absolute;
+}
+
+.bubble2 {
+  width: 20px;
+  height: 5px;
+  border-top-left-radius: 26px;
+  background-color: #FFF;
+  position: absolute;
+  transform: rotate(-30deg);
+  top: 123%;
+}
+
+.bubble p {
+  z-index: 3;
+  position: relative;
+  left: 20%;
+  margin-top: 22%;
+}
+
+
+.fake-news {
+  background-color: rgba(255, 255, 255, .5);
+  border-radius: 50px;
+  position: absolute;
+  top: 83.3%;
+  left: 23%;
+  opacity: 0;
+}
+
+.fake-news p {
+  color: red;
+  font-size: 700;
+  padding: 10px 5px;
+  font-size: 1.3em;
+  top: 84%;
+  left: 23%;
+  text-align: center;
+  transform: rotate(-14deg);
+  line-height: 20px;
+}
+
+.cross1 {
+  width: 6px;
+  height: 42px;
+  background-color: red;
+  transform: rotate(-57deg);
+  position: absolute;
+  top: 18%;
+  left: 43%;
+}
+
+.cross2 {
+  width: 6px;
+  height: 42px;
+  background-color: red;
+  transform: rotate(209deg);
+  position: absolute;
+  top: 18%;
+  left: 43%;
+}
+
+
+
+.exclamation-point{
+  font-size: 3em;
+  color: #FFF;
+  left: 48%;
+  position: absolute;
+  top: -32%;
+}
+
+
+
+
+
+
+
+
+
+
+
